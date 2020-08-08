@@ -36,20 +36,20 @@
                 </div>
                 <div class="d-none d-lg-block">
                     <ul class="navbar-nav text-success pl-5  ">
-                        <li class="nav-item   pl-4">
-                            <a class="pl-5 nav-link" href="#"><i class="fa fa-facebook-official fa-2x"
+                        <li class="nav-item   pl-3">
+                               <a class="pl-5 nav-link" href="https://www.linkedin.com/in/rafael-andrade-b56a8a161/" target="_blank"><i class="fa fa-linkedin fa-2x"
                                     aria-hidden="true"></i></a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#"><i class="fa fa-github-square fa-2x"
+                            <a class="nav-link" href="https://github.com/rafaDevjp" target="_blank"><i class="fa fa-github fa-2x"
                                     aria-hidden="true"></i></a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#"><i class="fa fa-linkedin-square fa-2x"
+                            <a class=" nav-link" href="#" target="_blank"><i class="fa fa-instagram fa-2x"
                                     aria-hidden="true"></i></a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#"><i class="fa fa-google-plus-square fa-2x"
+                            <a class="nav-link" href="https://api.whatsapp.com/send?phone=5579996566701)" target="blank"><i class="fa fa-whatsapp fa-2x"
                                     aria-hidden="true"></i></a>
                         </li>
                     </ul>

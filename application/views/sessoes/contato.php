@@ -62,24 +62,25 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-lg-4 p-4 text-light"> 
-                            <h4 class="font-weight-bolder">Rafael Andrade</h4>
-                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum laboriosam dolorem 
-                                minus dolores dicta sint ipsam? Est praesentium volupt
-                            </p>
+                            <h4 class="font-weight-bolder">Outros Serviços</h4>
+                            <p class="text-justify">Campanha de Social-media para comércios variados,
+                                                    campanha de market digital para E-commerce, apps 
+                                                    de vendas e Plublicidade no Google e Facebook.
+                                                    </p>        
                         </div>
                         <div class="col-xs-12 col-lg-3 p-4 text-light">
                             <h4 class="font-weight-bolder">Freelancer</h4>
-                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum laboriosam dolore </p>
+                            <p class="text-justify">Trabalho Freelancer livre de taxas de plataformas, basta entrar em contato por aqui.</p>
                         </div>
                         <div class="col-xs-12 col-lg-3 text-light text-center p-4">
-                           
-                                    <a class="p-2 text-light " href="#"><i class=" text-light fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                              
-                                    <a class="p-2 text-light " href="#"><i class=" text-light fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-                            
-                                    <a class="p-2 text-light " href="#"><i class=" text-light fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                                            
+                                     <a class="p-2 text-light " href="https://www.linkedin.com/in/rafael-andrade-b56a8a161/" target="_blank"><i class=" text-light fa fa-linkedin fa-2x" aria-hidden="true"></i></a>                    
+                                        
+                                    <a class="p-2 text-light " href="https://github.com/rafaDevjp" target="_blank"><i class=" text-light fa fa-github fa-2x" aria-hidden="true"></i></a>
+
+                                    <a class="p-2 text-light " href="#" target="_blank"><i class=" text-light fa fa-instagram fa-2x" aria-hidden="true"></i></a>
                                 
-                                    <a class="p-2 text-light " href="#"><i class=" text-light fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+                                    <a class="p-2 text-light " href="https://api.whatsapp.com/send?phone=5579996566701)" target="blank"><i class=" text-light fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
                                
                         </div>
                         <div class="col-xs-12 col-lg-12 pb-5  text-light text-center d-none d-lg-block ">
