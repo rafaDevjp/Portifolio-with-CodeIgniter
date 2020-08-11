@@ -74,7 +74,7 @@
 			    $this->load->model('box_email');
 				$this->box_email->mensagem();
 						
-				redirect('geral/index');
+				redirect('Geral/index');
 		
 	}
 
@@ -82,11 +82,15 @@
 
     // Função para abrir a caixa de Email
 	public function caixa_de_email(){
-
+			if ($this->session->has_userdata('nome')) {
+			redirect('Geral/');
+			}
 			$this->load->model('box_email');
 			$emails['emails'] = $this->box_email->exibir_mensagem();
 
+			$this->load->view('layout/header');
 			$this->load->view('caixa_email/pagina', $emails);
+			$this->load->view('layout/footer');
 		
 	}
 
@@ -106,6 +110,7 @@
 
 	//Função para deletar o Email quando o mesmo estiver aberto
 	public function deleta_email($id){
+
 
 			$this->load->model('box_email');
 			$this->box_email->deletar_email($id);

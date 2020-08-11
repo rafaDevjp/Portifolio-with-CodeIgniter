@@ -8,7 +8,7 @@
    class Admin extends CI_Controller{
 
 
-     
+    //page Login
     public function login(){
             $info = ['feed' => ''];
             $this->load->view('layout/header');
@@ -17,16 +17,16 @@
     }
 
 
-    
+    //Função de logar 
     public function signup(){
     
         if ($this->session->has_userdata('nome')) {
-            redirect('geral/');
+            redirect('Geral/');
         }else{
 
             $this->load->model('usuario_model');
                 if($this->usuario_model->logar() === TRUE){
-                    redirect('my_send/caixa_de_email');
+                    redirect('My_Send/caixa_de_email');
 
                 }else{
                     $this->loginInvalido();
@@ -55,12 +55,28 @@
           //Destroi dados da sessão                       //apaga tudo com o metodo unset_userdata('param.'); um para-
            $this->session->unset_userdata('id');  //cada linha (rows), depois redireciona para o controler (Geral)-
            $this->session->unset_userdata('nome');     //no controller Geral.php chama automaticamente a function index() 
-            redirect('geral/'); 
+            redirect('Geral/'); 
 
         }else {
-            redirect('geral/'); 
+            redirect('Geral/'); 
         }
-    }   
+    } 
+
+
+    public function caixa_de_email(){
+			if ($this->session->has_userdata('nome')) {
+			redirect('Geral/');
+			}
+			$this->load->model('box_email');
+			$emails['emails'] = $this->box_email->exibir_mensagem();
+
+			$this->load->view('layout/header');
+			$this->load->view('caixa_email/pagina', $emails);
+			$this->load->view('layout/footer');
+		
+	}
+    
+    
     
        
    }//END_CLASS

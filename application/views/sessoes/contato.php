@@ -13,8 +13,8 @@
 
                             <div class="col-xs-12 col-lg-5 p-5"> <!-- Parte de texto -->
                                 <h4 class="font-weight-bolder">Contato</h4>
-                                <p class="text-break font-weight-lighter text-justify">Você pode entrar em contato comigo agora mesmo! Basta preenchendo o formulário, também pelo telefone ou se achar melhor
-                                através minhas redes sociais, que estão logo a baixo do formulário.
+                                <p class="text-break font-weight-lighter text-justify">Você pode entrar em contato comigo agora mesmo! Basta preencher o formulário ou também pelo telefone, mas se achar melhor pode entrar em contato
+                                através minhas redes sociais, que estão logo a baixo do formulário ou logo à cima, no menu de navegação.
                                 </p>
 
                                 <div class="pt-5">
@@ -35,7 +35,7 @@
 										</div>
                                           
                                       <?php endif; ?>
-                                    <form action="<?php echo site_url('My_send/send') ?>" method="post">
+                                    <form action="<?php echo site_url('My_Send/send') ?>" method="post">
                                               
                                         <div class="form-group" title="Nome obrigatório">
                                             
